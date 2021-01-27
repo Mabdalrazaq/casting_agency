@@ -1,6 +1,9 @@
 # Casting Agency
 This website lets you store movies and actors in a database, and certain roles can make certain actions.
 
+## Motivation
+This Project is implemented as a capstone for my udacity nanodegree in Full Stack Engineering.
+
 ## Getting Started
 This project is deployed over the domain:
 https://casting-agency-314.herokuapp.com/
@@ -200,6 +203,13 @@ eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6Ik9pazhMMHdaZGRQMll6OGhEQzhfRSJ9.eyJ
   }
 }
 ```
+
+## Testing
+To test and deploy this project localy, you have to follow these steps:
+1. Clone this project on your device
+1. Install dependencies using `pip install -r requirements.txt`
+1. Define environment variables using `sh setup.sh`
+1. Run the test suit using `python test_app.py`
 
 
 
